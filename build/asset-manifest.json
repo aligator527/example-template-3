@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45d760f3.css",
+    "main.js": "/static/js/main.98caf876.js",
+    "static/js/787.93d8aac9.chunk.js": "/static/js/787.93d8aac9.chunk.js",
+    "static/media/Logo.svg": "/static/media/Logo.f0ed2cc58a0c2e30ca8c8d4a0b0e77bb.svg",
+    "static/media/S7 Logo.svg": "/static/media/S7 Logo.08b525fa9910ebe0228685d041c0500e.svg",
+    "index.html": "/index.html",
+    "main.45d760f3.css.map": "/static/css/main.45d760f3.css.map",
+    "main.98caf876.js.map": "/static/js/main.98caf876.js.map",
+    "787.93d8aac9.chunk.js.map": "/static/js/787.93d8aac9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45d760f3.css",
+    "static/js/main.98caf876.js"
+  ]
+}

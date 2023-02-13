@@ -1,0 +1,53 @@
+@use '../palletes/white-pallete.scss' as *;
+
+.list-item__container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-item__container input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: $background-color;
+    margin: 0;
+
+    font: inherit;
+    color: $border-color;
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid $border-color;
+    border-radius: 0.15em;
+    transform: translateY(0.000em);
+    display: grid;
+    place-content: center;
+}
+
+.list-item__container input[type="checkbox"]::before {
+    content: "";
+    width: 0.95em;
+    height: 0.95em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em $main-color;
+    transform-origin: left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0, 43% 62%);
+}
+
+.list-item__container input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.list-item__container input[type="checkbox"]:checked {
+    border: 2px solid $main-color;
+}
+
+.list-item__container input[type="checkbox"]:focus {
+    outline: max(2px, 2px) solid rgba($color: $border-color, $alpha: 0.4);
+        outline-offset: max(2px, 2px);
+}
+
+.list-item__container input[type="checkbox"]:checked:focus {
+    outline: max(2px, 2px) solid rgba($color: $main-color, $alpha: 0.4);
+}

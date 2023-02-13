@@ -1,0 +1,8 @@
+@use '../palletes/white-pallete.scss' as *;
+
+.filterPanel-container {
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba($color: $shadow-color, $alpha: 0.1);
+    overflow: hidden;
+}
+

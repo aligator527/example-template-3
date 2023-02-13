@@ -1,0 +1,7 @@
+@use '../../palletes/white-pallete.scss' as *;
+
+.ticket-container {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba($color: $shadow-color, $alpha: 0.1);
+}

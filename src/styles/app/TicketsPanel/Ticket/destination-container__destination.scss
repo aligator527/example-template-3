@@ -1,0 +1,7 @@
+@use '../../palletes/white-pallete.scss' as *;
+
+.destination-container__destination {
+    color: $second-text-color;
+    font-weight: 500;
+    font-size: 14px;
+}

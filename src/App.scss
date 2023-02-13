@@ -1,0 +1,45 @@
+/* ☆Entrance Gate to the magic of CSS☆ */
+* {
+    font-family: 'Open Sans';
+}
+
+/* PROJECT styles START */
+@import url(styles/app/palletes/white-pallete.scss);
+@import url(styles/app/palletes/dark-pallete.scss);
+/* PROJECT styles END */
+
+/* APP.JS styles START */
+@import url(styles/app/logo.scss);
+@import url(styles/app/main-container.scss);
+/* APP.JS styles END */
+
+/* FILTER PANEL styles START */
+@import url(styles/app/FilterPanel/filterPanel-container.scss);
+@import url(styles/app/FilterPanel/filterPanel-container__list-item.scss);
+@import url(styles/app/FilterPanel/list-item__container.scss);
+/* FILTER PANEL styles END */
+
+/* TICKETS PANEL styles START */
+/* >> FILTER PRICES styles START */
+@import url(styles/app/TicketsPanel/FilterPrices/filterprices-container.scss);
+@import url(styles/app/TicketsPanel/FilterPrices/filterprices-container__filter.scss);
+/* >> FILTER PRICES styles END */
+/* >> TICKET styles START */
+@import url(styles/app/TicketsPanel/Ticket/ticket-container.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-container__ticket-header.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-header__ticket-price.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-header__aircompany-logo.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-container__ticket-body.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-body__ticket-airway.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-airway__destination-container.scss);
+@import url(styles/app/TicketsPanel/Ticket/destination-container__da-time.scss);
+@import url(styles/app/TicketsPanel/Ticket/destination-container__destination.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-airway__intime-container.scss);
+@import url(styles/app/TicketsPanel/Ticket/intime-container__header.scss);
+@import url(styles/app/TicketsPanel/Ticket/intime-container__intime.scss);
+@import url(styles/app/TicketsPanel/Ticket/ticket-airway__transfer-container.scss);
+@import url(styles/app/TicketsPanel/Ticket/transfer-container__header.scss);
+@import url(styles/app/TicketsPanel/Ticket/transfer-container__transfer-airports.scss);
+@import url(styles/app/TicketsPanel/showmore.scss);
+/* >> TICKET PRICES styles END */
+/* TICKETS PANEL styles END */

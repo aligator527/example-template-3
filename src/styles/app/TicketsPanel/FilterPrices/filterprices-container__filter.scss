@@ -1,0 +1,16 @@
+@use '../../palletes/white-pallete.scss' as *;
+
+.filterprices-container__filter {
+    padding: 20px;
+    border: 1px solid rgba($color: $shadow-color, $alpha: 0.1);
+    
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba($color: $main-text-color, $alpha: 0.8);
+    letter-spacing: 0.03rem;
+}
+
+.filterprices-container__filter--focus {
+    color: $focused-text-color;
+    background-color: $main-color;
+}
